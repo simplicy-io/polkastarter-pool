@@ -1,6 +1,6 @@
-const Euro = artifacts.require('Euro');
+const Pool = artifacts.require('Pool');
 module.exports = function (deployer, network, accounts) {
-  const initialAccount = accounts[0];
-  deployer.deploy(Euro, 'EURO coin', 'EURC', 6, initialAccount, 100000000);
+  //const initialAccount = accounts[0];
+  deployer.deploy(Pool);
 
 };
